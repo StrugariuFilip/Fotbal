@@ -1,12 +1,5 @@
 body{
     background-color:black;
-    font-family: var(--primaryFont) !important;
-    font-size: var(--bodyFontSize);
-    font-weight: var(--bodyFontWeight);
-    font-style: var(--bodyFontStyle);
-    line-height: var(--bodyLineHeight);
-    color: var(--bodyColor);
-}
 }
 .navbar{
     background-color:#2153E4;
