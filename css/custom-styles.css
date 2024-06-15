@@ -1,5 +1,12 @@
 body{
+    background-color:black;
+}
+.navbar{
     background-color:#2153E4;
+    position:fixed;
+    display:flex;
+    top:0px;
+    justify-content:space-between;
 }
 .titlu{
     display:flex;
