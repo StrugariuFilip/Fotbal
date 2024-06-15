@@ -1,5 +1,12 @@
 body{
     background-color:black;
+    font-family: var(--primaryFont) !important;
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    font-style: var(--bodyFontStyle);
+    line-height: var(--bodyLineHeight);
+    color: var(--bodyColor);
+}
 }
 .navbar{
     background-color:#2153E4;
@@ -20,6 +27,12 @@ body{
     text-decoration:none;
     color:white;
     font-size:18px;
+}
+.navbar a:hover{
+    color:black;
+}
+.active{
+    color:black !important;
 }
 .restu{
     display:flex;
