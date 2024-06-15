@@ -1,28 +1,10 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Custom JavaScript to auto-play the carousel
     const carouselElement = document.querySelector('#carouselExampleIndicators');
     if (carouselElement) {
         $(carouselElement).carousel({
-            interval: 2000, // 3 seconds
+            interval: 3000, 
             pause: 'hover'
         });
-
-        // Example of adding custom behavior when slide changes
-        $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
-            console.log('Slide transition happening...');
-        });
-    }
-});
-document.addEventListener('DOMContentLoaded', (event) => {
-    // Custom JavaScript to auto-play the carousel
-    const carouselElement = document.querySelector('#carouselExampleIndicators');
-    if (carouselElement) {
-        $(carouselElement).carousel({
-            interval: 3000, // 3 seconds
-            pause: 'hover'
-        });
-
-        // Example of adding custom behavior when slide changes
         $('#carouselExampleIndicators').on('slide.bs.carousel', function (e) {
             console.log('Slide transition happening...');
         });
