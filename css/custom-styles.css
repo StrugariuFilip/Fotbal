@@ -19,6 +19,7 @@ body{
 .navbar a{
     text-decoration:none;
     color:white;
+    font-weight:bold;
     font-size:16px;
 }
 .navbar a:hover{
@@ -37,7 +38,7 @@ body{
     display:flex;
     justify-content: center;
     color:white;
-    margin-top:80px;
+    margin-top:100px;
     margin-bottom:30px;
 }
 .carousel-item img {
@@ -49,7 +50,7 @@ body{
    }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     padding: 10px;
     border-radius: 10px;
 }
